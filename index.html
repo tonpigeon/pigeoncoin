@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PigeonCoin (PGC) - Мем Токен на TON</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        
+        body {
+            font-family: 'Press Start 2P', sans-serif;
+            background: url('animated-bg.gif'), linear-gradient(to right, #1e3c72, #2a5298);
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        header, section, footer {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px 20px;
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #00ffcc;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#tokenomics">Токеномика</a></li>
+                <li><a href="#roadmap">Дорожная карта</a></li>
+                <li><a href="#community">Сообщество</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h1>PigeonCoin (PGC) - Мем Токен на TON</h1>
+        <p>Добро пожаловать в будущее мем-токенов! PigeonCoin (PGC) — это уникальный и забавный токен, созданный на блокчейне TON, чтобы объединить криптосообщество.</p>
+        <a href="https://t.me/pgcton" class="button">Присоединиться в Telegram</a>
+    </section>
+    
+    <section id="tokenomics">
+        <h2>Токеномика</h2>
+        <p>Общий объем эмиссии: 1 000 000 000 PGC</p>
+        <p>Ликвидность: 92%</p>
+        <p>Маркетинг и развитие: 3%</p>
+        <p>Команда: 3%</p>
+        <p>Аирдроп и акции: 2%</p>
+    </section>
+    
+    <section id="roadmap">
+        <h2>Дорожная карта</h2>
+        <p><strong>Этап 1: Подготовка и запуск</strong></p>
+        <p>Разработка концепции мем-токена (уникальный мем, миссия, целевая аудитория)</p>
+        <p>Создание токена в сети TON (определение токеномики, создание смарт-контракта)</p>
+        <p>Запуск официальных соцсетей (Telegram, X)</p>
+        <p>Начало сообщества и первых холдеров</p>
+        
+        <br>
+        <p><strong>Этап 2: Запуск и продвижение</strong></p>
+        <p>Листинг на BLUM (первичная ликвидность)</p>
+        <p>Листинг на DEX</p>
+        <p>Проведение airdrop среди активных пользователей TON</p>
+        <p>Запуск маркетинговой кампании (инфлюенсеры, мемы)</p>
+        <p>Развитие комьюнити (конкурсы, AMA-сессии, розыгрыши)</p>
+        <p>Укрепление ликвидности на BLUM и партнерства с другими TON-проектами</p>
+        
+        <br>
+        <p><strong>Этап 3: Масштабирование и хайп</strong></p>
+        <p>Интеграция с TON-играми и DeFi-приложениями</p>
+        <p>Листинг на новых DEX и CEX для увеличения доступности</p>
+        <p>Коллаборации с крупными крипто-мемами и инфлюенсерами</p>
+        
+        <br>
+        <p><strong>Этап 4: Укрепление позиций</strong></p>
+        <p>Массовый маркетинг (TikTok, Instagram, YouTube)</p>
+        <p>Разработка новых мемов и интеграция в TON-экосистему</p>
+        <p>Листинг на топовых биржах (OKX, Bybit, KuCoin)</p>
+        <p>Долгосрочная поддержка и развитие экосистемы токена</p>
+    </section>
+    <section id="community">
+        <h2>Сообщество</h2>
+        <p>Следите за новостями и участвуйте в обсуждениях в нашем Telegram-канале!</p>
+        <a href="https://t.me/pgcton" class="button">Telegram</a>
+    </section>
+</body>
+</html>
+
+
+
+
